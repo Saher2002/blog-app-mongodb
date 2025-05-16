@@ -7,19 +7,19 @@ Preview :
 git clone https://github.com/Saher2002/blog-app-mongodb.git
 cd blog-app-mongodb
 ```
-##🔧 SERVER SIDE (Backend)
-Open the backend folder in the terminal
+# 🔧 SERVER SIDE (Backend)
+1. Open the backend folder in the terminal
   cd Backend
   Add your MongoDB URI in a .env file
 
-Create a file named .env and add:
+2. Create a file named .env and add:
   MONGO_URI=mongodb+srv://saherxhussain:qecvPZ9yFQh0QTsZ@cluster1.9svznty.mongodb.net/
   PORT=5000
 
-Install dependencies
+3. Install dependencies
   npm install
 
-Start the backend server
+4. Start the backend server
 If using nodemon, run:
   npm run dev
 Else:
@@ -28,14 +28,14 @@ Else:
 ✅ The server should now be running at:
  http://localhost:5000
 
-##🌐 CLIENT SIDE (Frontend)
-Open the blog-starter-bscs-633 folder
+# 🌐 CLIENT SIDE (Frontend)
+1. Open the blog-starter-bscs-633 folder
   cd blog-starter-bscs-633
 
-Install dependencies
+2. Install dependencies
   npm install
-
-Start the development server
+  
+3. Start the development server
   npm run dev
 
 ✅ The React frontend will run at:
